@@ -28,11 +28,11 @@ const Home = () => {
         <Input coordinate="y" />
       </DivInput> */}
       <Map>
-        <Icon className="casa" title="Ciudad Principal" onClick={() => handleClick("Ciudad Principal", "x: 400 y: -400", "")} />
-        <Icon className="setas" title="Peninsula Setas" onClick={() => handleClick("Peninsula setas", "", "")} />
-        <Icon className="pueblo_paleta" title="Pueblo Paleta" onClick={() => handleClick("Pueblo Paleta", "", "Granjero")} />
-        <Icon className="pueblo_vacio" title="Pueblo Vacio" onClick={() => handleClick("Pueblo Vacio", "", "")} />
-        <Icon className="pueblo_bob" title="Pueblo Bob Marley " onClick={() => handleClick("Pueblo Bob Marley", "", "Cartografo, Herrero herramientas")} />
+        <Icon typeIcon="home" className="casa" title="Ciudad Principal" onClick={() => handleClick("Ciudad Principal", "x: 400 y: -400", "")} />
+        <Icon typeIcon="point" className="setas" title="Peninsula Setas" onClick={() => handleClick("Peninsula setas", "", "")} />
+        <Icon typeIcon="village" className="pueblo_paleta" title="Pueblo Paleta" onClick={() => handleClick("Pueblo Paleta", "", "Granjero")} />
+        <Icon typeIcon="village" className="pueblo_vacio" title="Pueblo Vacio" onClick={() => handleClick("Pueblo Vacio", "", "")} />
+        <Icon typeIcon="village" className="pueblo_bob" title="Pueblo Bob Marley " onClick={() => handleClick("Pueblo Bob Marley", "", "Cartografo, Herrero herramientas")} />
       </Map>
     </DivHome>
   );
